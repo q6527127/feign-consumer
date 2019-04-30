@@ -1,2 +1,0 @@
-# feign-consumer
-feign-consumer
