@@ -14,7 +14,7 @@ public class TestConotroller {
 	@Autowired
 	HelloService helloService;
 	
-	@RequestMapping(value="/feign-consumer",method=RequestMethod.GET)
+	@RequestMapping(value="/client",method=RequestMethod.GET)
 	public String helloConsumer(){
 		return helloService.hello();
 	}
